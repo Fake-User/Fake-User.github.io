@@ -1,5 +1,9 @@
 @font-face { font-family: Quarkstorm; src: url('Static/Fonts/quarkstormgradital.ttf'); }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     overflow: hidden;
 }
@@ -38,7 +42,7 @@ h1{
         background-image: url("Static/Images/space_01.png");
     }
     .s4{
-        background-image: url("Static/Images/space_07.png");
+        background-image: url("Static/Images/space_02.png");
     }
 
 .parallax_wrapper{
