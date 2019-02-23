@@ -1,21 +1,18 @@
 @font-face { font-family: Quarkstorm; src: url('Static/Fonts/quarkstormgradital.ttf'); }
 
-
-*{
-    margin:0;
-    padding:0;
-}
 html{
     overflow: hidden;
 }
 body{
     color: #ffffff;
-    height:100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat_Medium', sans-serif;
     font-size: calc(2vh + 0.5vw);
-    perspective:100px;
-    overflow-x:hidden;
-    overflow-y:auto;
+    perspective: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 h1{
     font-family: 'Quarkstorm', sans-serif;
@@ -24,30 +21,30 @@ h1{
 }
 
 .section{
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     background-position: left;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 }
     .s1{
-        background-image:url("Static/Images/space_05.png");
+        background-image: url("Static/Images/space_05.png");
     }
     .s2{
-        background-image:url("Static/Images/space_06.png");
+        background-image: url("Static/Images/space_06.png");
     }
     .s3{
-        background-image:url("Static/Images/space_01.png");
+        background-image: url("Static/Images/space_01.png");
     }
     .s4{
-        background-image:url("Static/Images/space_07.png");
+        background-image: url("Static/Images/space_07.png");
     }
 
 .parallax_wrapper{
-    width:100vw;
-    height:100vh;
-    transform-style:preserve-3d;
+    width: 100vw;
+    height: 100vh;
+    transform-style: preserve-3d;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 2vh, rgba(0, 0, 0, 0) calc(100% - 2vh), rgba(0, 0, 0, 0.6));
 }
     .parallax{
@@ -55,68 +52,68 @@ h1{
         left: 50%;
         position: absolute;
     }
-        .flower{
-            width:50vw;
-            height:50vw;
-            transform:translate3d(-50%, -50%, -50px) scale(1.5);
+        .glitch_flower{
+            width: 50vw;
+            height: 50vw;
+            transform: translate3d(-50%, -50%, -50px) scale(1.5);
         }
         .glitch_moon{
-            width:50vw;
-            height:50vw;
-            transform:translate3d(-50%, -50%, -50px) scale(1.5);
+            width: 50vw;
+            height: 50vw;
+            transform: translate3d(-50%, -50%, -50px) scale(1.5);
         }
         .glitch_sun{
-            width:65vw;
-            height:65vw;
-            transform:translate3d(-50%, -50%, -50px) scale(1.5);
+            width: 65vw;
+            height: auto65vw;
+            transform: translate3d(-50%, -50%, -50px) scale(1.5);
         }
         .glitch_saturn{
-            width:50vw;
-            height:50vw;
-            transform:translate3d(-50%, -50%, -50px) scale(1.5);
+            width: 50vw;
+            height: 50vw;
+            transform: translate3d(-50%, -50%, -50px) scale(1.5);
         }
         .branding{
             font-size: 13vw;
             font-family: 'Quarkstorm', sans-serif;
             letter-spacing: 3vw;
             color: #f00;
-            transform:translate3d(-50%, -50%, -35px) scale(1.35);
+            transform: translate3d(-50%, -50%, -35px) scale(1.35);
         }
-        .floater{
-            width:50vw;
-            height:50vw;
-            transform:translate3d(-50%, -50%, -15px) scale(1.15);
+        .glitch_girl{
+            width: 50vw;
+            height: 50vw;
+            transform: translate3d(-50%, -50%, -15px) scale(1.15);
         }
         .glitch_moth{
-            width:40vw;
-            height:40vw;
-            transform:translate3d(-50%, -50%, -15px) scale(1.15);
+            width: 40vw;
+            height: 40vw;
+            transform: translate3d(-50%, -50%, -15px) scale(1.15);
         }
         .glitch_astro{
-            width:45vw;
-            height:45vw;
-            transform:translate3d(-50%, -50%, -15px) scale(1.15);
+            width: 45vw;
+            height: 45vw;
+            transform: translate3d(-50%, -50%, -15px) scale(1.15);
         }
         .glitch_bird{
-            width:50vw;
-            height:50vw;
-            transform:translate3d(-50%, -50%, -15px) scale(1.15);
+            width: 50vw;
+            height: 50vw;
+            transform: translate3d(-50%, -50%, -15px) scale(1.15);
         }
 .spacer_wrapper{
-    width:100vw;
-    height:auto;
-    min-height:50vh;
-    background-color:#fff;
+    width: 100vw;
+    height: auto;
+    min-height: 50vh;
+    background-color: #fff;
     color: #000;
-    position:relative;
-    z-index:3;
+    position: relative;
+    z-index: 3;
 }
     .spacer{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         max-width: 160vh;
-        position:absolute;
+        position: absolute;
         padding: 0 2vh;
     }
 
