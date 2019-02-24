@@ -33,16 +33,16 @@ h1{
     background-attachment: fixed;
 }
     .s1{
-        background-image: url("Static/Images/space_05.png");
+        background-image: url("Static/Images/space_05.jpg");
     }
     .s2{
-        background-image: url("Static/Images/space_06.png");
+        background-image: url("Static/Images/space_06.jpg");
     }
     .s3{
-        background-image: url("Static/Images/space_01.png");
+        background-image: url("Static/Images/space_01.jpg");
     }
     .s4{
-        background-image: url("Static/Images/space_02.png");
+        background-image: url("Static/Images/space_02.jpg");
     }
 
 .parallax_wrapper{
