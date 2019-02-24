@@ -1,4 +1,5 @@
 @font-face { font-family: Quarkstorm; src: url('Static/Fonts/quarkstormgradital.ttf'); }
+@font-face { font-family: Montserrat; src: url('Static/Fonts/Montserrat_Medium.ttf'); }
 
 *{
     margin: 0;
@@ -12,7 +13,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat_Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: calc(2vh + 0.5vw);
     perspective: 100px;
     overflow-x: hidden;
