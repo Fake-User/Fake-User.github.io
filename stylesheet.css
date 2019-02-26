@@ -112,9 +112,6 @@ iframe{
         position: absolute;
         padding: 0 2vh;
     }
-    .spacer_heading{
-        padding-top: 0vh;
-    }
     .content_wrapper{
         overflow-x: scroll;
         overflow-y: hidden;
