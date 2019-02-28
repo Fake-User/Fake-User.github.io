@@ -38,16 +38,16 @@ iframe{
     background-attachment: fixed;
 }
     .s1{
-        background-image: url("Static/Images/space_05.jpg");
+        background-image: url("Static/Images/Background/space_05.jpg");
     }
     .s2{
-        background-image: url("Static/Images/space_01.jpg");
+        background-image: url("Static/Images/Background/space_01.jpg");
     }
     .s3{
-        background-image: url("Static/Images/space_06.jpg");
+        background-image: url("Static/Images/Background/space_06.jpg");
     }
     .s4{
-        background-image: url("Static/Images/space_02.jpg");
+        background-image: url("Static/Images/Background/space_02.jpg");
     }
 /* Parallax */
 .parallax_wrapper{
@@ -120,6 +120,34 @@ iframe{
         }
         .glitch_moth{
             transform: translate3d(-50%, -50%, -15px) scale(1);
+        }
+        .insect_01{
+            top: 0%; left: 70%;
+            transform: translate3d(-50%, -50%, -25px) scale(1);
+        }
+        .insect_02{
+            top: 25%; left: 90%;
+            transform: translate3d(-50%, -50%, -40px) scale(1);
+        }
+        .insect_03{
+            top: 35%; left: 10%;
+            transform: translate3d(-50%, -50%, -0px) scale(1);
+        }
+        .insect_04{
+            top: 58%; left: 75%;
+            transform: translate3d(-50%, -50%, -30px) scale(1);
+        }
+        .insect_05{
+            top: 60%; left: 25%;
+            transform: translate3d(-50%, -50%, -0px) scale(1);
+        }
+        .insect_06{
+            top: 80%; left: 90%;
+            transform: translate3d(-50%, -50%, -40px) scale(1);
+        }
+        .insect_07{
+            top: 90%; left: 20%;
+            transform: translate3d(-50%, -50%, -0px) scale(1);
         }
 
         /* Section 4 */
