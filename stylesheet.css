@@ -85,6 +85,26 @@ iframe{
         .glitch_girl{
             transform: translate3d(-50%, -50%, -15px) scale(1.15);
         }
+        .bird_01{
+            top: 5%; left: 88%;
+            transform: translate3d(-50%, -50%, -36px) scale(1.2);
+        }
+        .bird_02{
+            top: 7%; left:18%;
+            transform: translate3d(-50%, -50%, -10px) scale(1);
+        }
+        .bird_03{
+            top: 50%; left: 100%;
+            transform: translate3d(-50%, -50%, -45px) scale(0.8);
+        }
+        .bird_04{
+            top: 80%; left: 10%;
+            transform: translate3d(-50%, -50%, -49px) scale(1);
+        }
+        .bird_05{
+            top: 77%; left: 88%;
+            transform: translate3d(-50%, -50%, -15px) scale(1.1);
+        }
 
         /* Section 2 */
         .glitch_sun{
