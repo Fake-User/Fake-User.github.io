@@ -166,16 +166,16 @@ iframe{
             transform: translate3d(-50%, -50%, -40px) scale(0.6);
         }
         .insect_07{
-            top: 0%; left: 0%;
-            transform: translate3d(-50%, -50%, -0px) scale(1);
+            top: 83%; left: 90%;
+            transform: translate3d(-50%, -50%, -30px) scale(0.7);
         }
         .insect_08{
-            top: 0%; left: 0%;
-            transform: translate3d(-50%, -50%, -0px) scale(1);
+            top: 93%; left: 13%;
+            transform: translate3d(-50%, -50%, -40px) scale(0.7);
         }
         .insect_09{
-            top: 0%; left: 0%;
-            transform: translate3d(-50%, -50%, -0px) scale(1);
+            top: 105%; left: 73%;
+            transform: translate3d(-50%, -50%, -10px) scale(0.8);
         }
 
         /* Section 4 */
