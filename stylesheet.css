@@ -47,7 +47,7 @@ iframe{
         background-image: url("Static/Images/Background/space_06.jpg");
     }
     .s4{
-        background-image: url("Static/Images/Background/space_10.jpg");
+        background-image: url("Static/Images/Background/space_12.jpg");
     }
 /* Parallax */
 .parallax_wrapper{
@@ -179,8 +179,28 @@ iframe{
         }
 
         /* Section 4 */
-        .glitch_bird{
-            transform: translate3d(-50%, -50%, -15px) scale(1.15);
+        .glitch_ball{
+            transform: translate3d(-50%, -50%, -50px) scale(0.5);
+        }
+        .dolphin_01{
+            top: 10%; left: 20%;
+            transform: translate3d(-50%, -50%, -5px) scale(1);
+        }
+        .dolphin_02{
+            top: 20%; left: 90%;
+            transform: translate3d(-50%, -50%, -30px) scale(0.9);
+        }
+        .dolphin_03{
+            top: 50%; left: -10%;
+            transform: translate3d(-50%, -50%, -40px) scale(1);
+        }
+        .dolphin_04{
+            top: 65%; left: 90%;
+            transform: translate3d(-50%, -50%, -0px) scale(1.1);
+        }
+        .dolphin_05{
+            top: 90%; left: 20%;
+            transform: translate3d(-50%, -50%, -40px) scale(1.5);
         }
 
 .spacer_wrapper{
