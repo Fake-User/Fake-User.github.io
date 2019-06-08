@@ -179,8 +179,8 @@ iframe{
         }
 
         /* Section 4 */
-        .glitch_ball{
-            transform: translate3d(-50%, -50%, -50px) scale(0.5);
+        .glitch_diver{
+            transform: translate3d(-50%, -50%, -15px) scale(1);
         }
         .dolphin_01{
             top: 10%; left: 20%;
