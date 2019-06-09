@@ -10,6 +10,7 @@ html{
 }
 body{
     color: #ffffff;
+    background-color: #ff00ff;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -49,10 +50,12 @@ iframe{
     .s4{
         background-image: url("Static/Images/Background/space_12.jpg");
     }
+
 /* Parallax */
 .parallax_wrapper{
     width: 100vw;
     height: 100vh;
+    position: relative;
     transform-style: preserve-3d;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 2vh, rgba(0, 0, 0, 0) calc(100% - 2vh), rgba(0, 0, 0, 0.6));
 }
