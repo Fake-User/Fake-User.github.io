@@ -5,9 +5,7 @@
     margin: 0;
     padding: 0;
 }
-html{
-    overflow: hidden;
-}
+html{overflow: hidden;}
 body{
     color: #ffffff;
     background-color: #ff00ff;
@@ -38,18 +36,10 @@ iframe{
     background-size: cover;
     background-attachment: fixed;
 }
-    .s1{
-        background-image: url("Static/Images/Background/space_05.jpg");
-    }
-    .s2{
-        background-image: url("Static/Images/Background/space_01.jpg");
-    }
-    .s3{
-        background-image: url("Static/Images/Background/space_06.jpg");
-    }
-    .s4{
-        background-image: url("Static/Images/Background/space_12.jpg");
-    }
+    .s1{background-image: url("Static/Images/Background/space_05.jpg");}
+    .s2{background-image: url("Static/Images/Background/space_01.jpg");}
+    .s3{background-image: url("Static/Images/Background/space_06.jpg");}
+    .s4{background-image: url("Static/Images/Background/space_12.jpg");}
 
 /* Parallax */
 .parallax_wrapper{
@@ -82,132 +72,44 @@ iframe{
         }
 
         /* Section 1 */
-        .glitch_flower{
-            transform: translate3d(-50%, -50%, -50px) scale(1.5);
-        }
-        .glitch_girl{
-            transform: translate3d(-50%, -50%, -15px) scale(1.15);
-        }
-        .bird_01{
-            top: 5%; left: 88%;
-            transform: translate3d(-50%, -50%, -36px) scale(1.2);
-        }
-        .bird_02{
-            top: 7%; left:18%;
-            transform: translate3d(-50%, -50%, -10px) scale(1);
-        }
-        .bird_03{
-            top: 50%; left: 100%;
-            transform: translate3d(-50%, -50%, -45px) scale(0.8);
-        }
-        .bird_04{
-            top: 80%; left: 10%;
-            transform: translate3d(-50%, -50%, -49px) scale(1);
-        }
-        .bird_05{
-            top: 77%; left: 88%;
-            transform: translate3d(-50%, -50%, -15px) scale(1.1);
-        }
+        .glitch_flower{transform: translate3d(-50%, -50%, -50px) scale(1.5);}
+        .glitch_girl{transform: translate3d(-50%, -50%, -15px) scale(1.15);}
+        .bird_01{top: 5%; left: 88%; transform: translate3d(-50%, -50%, -36px) scale(1.2);}
+        .bird_02{top: 7%; left:18%; transform: translate3d(-50%, -50%, -10px) scale(1);}
+        .bird_03{top: 50%; left: 100%; transform: translate3d(-50%, -50%, -45px) scale(0.8);}
+        .bird_04{top: 80%; left: 10%; transform: translate3d(-50%, -50%, -49px) scale(1);}
+        .bird_05{top: 77%; left: 88%; transform: translate3d(-50%, -50%, -15px) scale(1.1);}
 
         /* Section 2 */
-        .glitch_sun{
-            transform: translate3d(-50%, -50%, -50px) scale(1.8);
-        }
-        .glitch_astro{
-            transform: translate3d(-50%, -50%, -15px) scale(1);
-        }
-        .balloon_01{
-            top: 10%; left: 20%;
-            transform: translate3d(-50%, -50%, -5px) scale(1);
-        }
-        .balloon_02{
-            top: 20%; left: 90%;
-            transform: translate3d(-50%, -50%, -30px) scale(0.9);
-        }
-        .balloon_03{
-            top: 50%; left: -10%;
-            transform: translate3d(-50%, -50%, -40px) scale(1);
-        }
-        .balloon_04{
-            top: 65%; left: 90%;
-            transform: translate3d(-50%, -50%, -0px) scale(1.1);
-        }
-        .balloon_05{
-            top: 90%; left: 20%;
-            transform: translate3d(-50%, -50%, -40px) scale(1.5);
-        }
+        .glitch_sun{transform: translate3d(-50%, -50%, -50px) scale(1.8);}
+        .glitch_astro{transform: translate3d(-50%, -50%, -15px) scale(1);}
+        .balloon_01{top: 10%; left: 20%; transform: translate3d(-50%, -50%, -5px) scale(1);}
+        .balloon_02{top: 20%; left: 90%; transform: translate3d(-50%, -50%, -30px) scale(0.9);}
+        .balloon_03{top: 50%; left: -10%; transform: translate3d(-50%, -50%, -40px) scale(1);}
+        .balloon_04{top: 65%; left: 90%; transform: translate3d(-50%, -50%, -0px) scale(1.1);}
+        .balloon_05{top: 90%; left: 20%; transform: translate3d(-50%, -50%, -40px) scale(1.5);}
 
         /* Section 3 */
-        .glitch_moon{
-            transform: translate3d(-50%, -50%, -50px) scale(1.5);
-        }
-        .glitch_moth{
-            transform: translate3d(-50%, -50%, -15px) scale(1);
-        }
-        .insect_01{
-            top: 8%; left: 15%;
-            transform: translate3d(-50%, -50%, -5px) scale(0.9);
-        }
-        .insect_02{
-            top: 4%; left: 78%;
-            transform: translate3d(-50%, -50%, -36px) scale(0.7);
-        }
-        .insect_03{
-            top: 30%; left: 15%;
-            transform: translate3d(-50%, -50%, -40px) scale(0.4);
-        }
-        .insect_04{
-            top: 34%; left: 83%;
-            transform: translate3d(-50%, -50%, -25px) scale(0.4);
-        }
-        .insect_05{
-            top: 50%; left: 8%;
-            transform: translate3d(-50%, -50%, -16px) scale(1);
-        }
-        .insect_06{
-            top: 66%; left: 100%;
-            transform: translate3d(-50%, -50%, -40px) scale(0.6);
-        }
-        .insect_07{
-            top: 83%; left: 90%;
-            transform: translate3d(-50%, -50%, -30px) scale(0.7);
-        }
-        .insect_08{
-            top: 93%; left: 13%;
-            transform: translate3d(-50%, -50%, -40px) scale(0.7);
-        }
-        .insect_09{
-            top: 105%; left: 73%;
-            transform: translate3d(-50%, -50%, -10px) scale(0.8);
-        }
+        .glitch_moon{transform: translate3d(-50%, -50%, -50px) scale(1.5);}
+        .glitch_moth{transform: translate3d(-50%, -50%, -15px) scale(1);}
+        .insect_01{top: 8%; left: 15%; transform: translate3d(-50%, -50%, -5px) scale(0.9);}
+        .insect_02{top: 4%; left: 78%; transform: translate3d(-50%, -50%, -36px) scale(0.7);}
+        .insect_03{top: 30%; left: 15%; transform: translate3d(-50%, -50%, -40px) scale(0.4);}
+        .insect_04{top: 34%; left: 83%; transform: translate3d(-50%, -50%, -25px) scale(0.4);}
+        .insect_05{top: 50%; left: 8%; transform: translate3d(-50%, -50%, -16px) scale(1);}
+        .insect_06{top: 66%; left: 100%; transform: translate3d(-50%, -50%, -40px) scale(0.6);}
+        .insect_07{top: 83%; left: 90%; transform: translate3d(-50%, -50%, -30px) scale(0.7);}
+        .insect_08{top: 93%; left: 13%; transform: translate3d(-50%, -50%, -40px) scale(0.7);}
+        .insect_09{top: 105%; left: 73%; transform: translate3d(-50%, -50%, -10px) scale(0.8);}
 
         /* Section 4 */
-        .glitch_succulent{
-            transform: translate3d(-50%, -50%, -50px) scale(1.4);
-        }
-        .glitch_beatle{
-            transform: translate3d(-50%, -50%, -15px) scale(0.8);
-        }
-        .lantern_01{
-            top: 10%; left: 20%;
-            transform: translate3d(-50%, -50%, -5px) scale(0.7);
-        }
-        .lantern_02{
-            top: 20%; left: 90%;
-            transform: translate3d(-50%, -50%, -30px) scale(0.6);
-        }
-        .lantern_03{
-            top: 50%; left: -10%;
-            transform: translate3d(-50%, -50%, -40px) scale(0.7);
-        }
-        .lantern_04{
-            top: 65%; left: 90%;
-            transform: translate3d(-50%, -50%, -0px) scale(0.8);
-        }
-        .lantern_05{
-            top: 90%; left: 20%;
-            transform: translate3d(-50%, -50%, -40px) scale(1.2);
-        }
+        .glitch_succulent{transform: translate3d(-50%, -50%, -50px) scale(1.4);}
+        .glitch_beatle{transform: translate3d(-50%, -50%, -15px) scale(0.8);}
+        .lantern_01{top: 10%; left: 20%; transform: translate3d(-50%, -50%, -5px) scale(0.7);}
+        .lantern_02{top: 20%; left: 90%; transform: translate3d(-50%, -50%, -30px) scale(0.6);}
+        .lantern_03{top: 50%; left: -10%; transform: translate3d(-50%, -50%, -40px) scale(0.7);}
+        .lantern_04{top: 65%; left: 90%; transform: translate3d(-50%, -50%, -0px) scale(0.8);}
+        .lantern_05{top: 90%; left: 20%; transform: translate3d(-50%, -50%, -40px) scale(1.2);}
 
 .spacer_wrapper{
     min-height: 50vh;
@@ -225,6 +127,7 @@ iframe{
         padding: 0 2vh;
     }
     .content_wrapper{
+        -webkit-overflow-scrolling: touch;
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
@@ -235,17 +138,11 @@ iframe{
             width: 50vh;
             padding: 0vh 1vh 2vh;
         }
-            .c_left{
-                padding-left: 2vh;
-            }
-            .c_right{
-                padding-right: 2vh;
-            }
+            .c_left{padding-left: 2vh;}
+            .c_right{padding-right: 2vh;}
 
 .social_grid{
     display: grid;
     grid-template-columns: 1fr auto auto auto auto auto 1fr;
 }
-    .social_logo{
-        padding: 2vh 1vh 0 1vh;
-    }
+    .social_logo{padding: 2vh 1vh 0 1vh;}
