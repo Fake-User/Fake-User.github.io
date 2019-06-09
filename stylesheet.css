@@ -15,8 +15,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: calc(2vh + 0.5vw);
     perspective: 100px;
+    -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 h1{
     font-family: 'Quarkstorm', sans-serif;
