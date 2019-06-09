@@ -18,7 +18,8 @@ body{
     font-size: calc(2vh + 0.5vw);
     perspective: 100px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 h1{
     font-family: 'Quarkstorm', sans-serif;
