@@ -105,11 +105,11 @@ iframe{
         /* Section 4 */
         .glitch_succulent{transform: translate3d(-50%, -50%, -50px) scale(1.4);}
         .glitch_beatle{transform: translate3d(-50%, -50%, -15px) scale(0.8);}
-        .lantern_01{top: 10%; left: 20%; transform: translate3d(-50%, -50%, -5px) scale(0.7);}
-        .lantern_02{top: 20%; left: 90%; transform: translate3d(-50%, -50%, -30px) scale(0.6);}
-        .lantern_03{top: 50%; left: -10%; transform: translate3d(-50%, -50%, -40px) scale(0.7);}
-        .lantern_04{top: 65%; left: 90%; transform: translate3d(-50%, -50%, -0px) scale(0.8);}
-        .lantern_05{top: 90%; left: 20%; transform: translate3d(-50%, -50%, -40px) scale(1.2);}
+        .betta_01{top: 10%; left: 20%; transform: translate3d(-50%, -50%, -5px) scale(1);}
+        .betta_02{top: 20%; left: 90%; transform: translate3d(-50%, -50%, -30px) scale(0.8);}
+        .betta_03{top: 50%; left: -10%; transform: translate3d(-50%, -50%, -40px) scale(1);}
+        .betta_04{top: 65%; left: 90%; transform: translate3d(-50%, -50%, -0px) scale(1.2);}
+        .betta_05{top: 90%; left: 20%; transform: translate3d(-50%, -50%, -40px) scale(1.8);}
 
 .spacer_wrapper{
     min-height: 50vh;
