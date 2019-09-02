@@ -55,20 +55,24 @@ iframe{
         max-height: 100vh;
         max-width: 100vw;
         position: absolute;
+        overflow: hidden;
     }
     .parallax_secondary{
         max-height: 40vh;
         max-width: 40vw;
         position: absolute;
+        overflow: hidden;
     }
-        .branding{
-            font-size: 10.5vw;
-            font-family: 'Quarkstorm', sans-serif;
-            letter-spacing: 2vw;
-            text-align: center;
-            color: #f00;
-            transform: translate3d(-50%, -50%, -35px) scale(1.35);
-            line-height: 55vh;
+    .branding{
+        font-size: 10.5vw;
+        font-family: 'Quarkstorm', sans-serif;
+        letter-spacing: 2vw;
+        text-align: center;
+        color: #f00;
+        transform: translate3d(-50%, -50%, -35px) scale(1.35);
+        line-height: 55vh;
+        overflow: hidden;
+        white-space: nowrap;
         }
 
         /* Section 1 */
